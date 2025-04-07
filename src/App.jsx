@@ -2,8 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import React from 'react';
-import Greeting from './components/Greeting';
+import React from 'react'; //Imports the react software from react
+import Greeting from './components/Greeting'; //Imports the Greeting from the components folder.
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,7 +24,7 @@ function App() {
           count is {count}
         </button>
         <p>
-          <div>
+          <div> 
             <h1><Greeting /></h1>
           </div>
         </p>
